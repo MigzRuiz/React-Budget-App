@@ -7,3 +7,15 @@ body {
     font-size: $m-size;
     font-family: Helvetica, sans-serif;
 }
+
+button {
+    cursor: pointer;
+}
+
+button:disabled {
+    cursor: default;
+}
+
+.is-active {
+    font-weight: bold;
+}
