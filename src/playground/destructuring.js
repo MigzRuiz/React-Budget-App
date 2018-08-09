@@ -16,7 +16,7 @@ const person = {
 
 //console.log(`${city} is ${temp}`);
 
-const book = {
+/* const book = {
     title: "harry potter",
     author: "jk rowling",
     publisher: {
@@ -26,4 +26,12 @@ const book = {
 
 const {name: publisherName = "self"} = book.publisher;
 
-console.log(publisherName);
+console.log(publisherName); */
+
+//Array destructuring
+
+const address = ["8962 chantal way","Sacramento","California","95829"];
+
+const [street, city, state, zip] = address;
+
+console.log(`You are in ${city}, ${state}`);
