@@ -1,3 +1,4 @@
+import 'react-dates/initialize';
 import React from "react";
 import ReactDOM from "react-dom";
 import { Provider } from "react-redux";
@@ -8,6 +9,7 @@ import "normalize.css/normalize.css";
 import "./styles/styles.scss";
 import { addExpense } from "./actions/expenses";
 import { setTextFilter } from "./actions/filters";
+
 
 const store = configureStore();
 store.dispatch(addExpense({description:"Water Bill", amount: 69}));
