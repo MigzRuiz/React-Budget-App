@@ -9,6 +9,8 @@ import "normalize.css/normalize.css";
 import "./styles/styles.scss";
 import { addExpense } from "./actions/expenses";
 import { setTextFilter } from "./actions/filters";
+import "./firebase/firebase";
+import "./playground/promises";
 
 
 const store = configureStore();

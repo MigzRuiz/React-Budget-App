@@ -1,5 +1,5 @@
 Arguments: 
-  /usr/local/bin/node /usr/local/bin/yarn add chalk --dev
+  /usr/local/bin/node /usr/local/bin/yarn add firebase
 
 PATH: 
   /usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
@@ -18,8 +18,12 @@ Trace:
 
 npm manifest: 
   {
+    "name":"react-budget-app",
+    "version": "1.0.0",
+    "main": "index.js",
+    "author": "Miguel Ruiz",
+    "license": "MIT",
     "scripts": {
-      "serve": "live-server public/",
       "build:dev": "webpack",
       "build:prod": "webpack -p --env production",
       "dev-server": "webpack-dev-server",
@@ -38,7 +42,6 @@ npm manifest:
       "css-loader": "^1.0.0",
       "express": "^4.16.3",
       "jest": "^23.5.0",
-      "live-server": "^1.2.0",
       "mini-css-extract-plugin": "^0.4.1",
       "moment": "^2.22.2",
       "node-sass": "^4.9.2",
